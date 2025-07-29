@@ -1,0 +1,8 @@
+config:
+    authorization:
+        claims-token.validity-in-millisecond: 12000
+        refresh-token.validity-in-millisecond: 3600
+        anonymous-token.validity-in-millisecond: 3600
+    idp:
+        endpoint: http://uat2-ecs.rhbcloud.com/dcp-identity-service/login
+        
