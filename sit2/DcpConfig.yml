@@ -4,5 +4,5 @@ config:
         refresh-token.validity-in-millisecond: 3600
         anonymous-token.validity-in-millisecond: 3600
     idp:
-        endpoint: http://sit2-ecs.rhbcloud.com/dcp-identity-service/login
+        endpoint: http://sit2-ecs.mycloud.com/identity-service/login
         
